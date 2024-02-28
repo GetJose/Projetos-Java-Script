@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #020403;
+    background: linear-gradient(45deg, #00cbfe, #2b2aaf);
+}
+
+.container {
+    max-width: 500px;
+    max-height: 600px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: rgba(2, 4, 3, 0.25) 0px 14px 28px,
+        rgba(2, 4, 3, 0.22) 0px 10px 10px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(2, 4, 3, 0.2) 0px 2px 3px, rgba(2, 4, 3, 0.2) 0px 1.5px 2px,
+        rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+button:active {
+    top: 3px;
+    box-shadow: inset 0px -2px 3px 3px rgba(80, 50, 40, 0.2);
+}
+
+.span {
+    color: #2b2aaf;
+}
+
+#display {
+    color: #888;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    margin: 20px 0px;
+    padding: 0px 5px;
+    background: transparent;
+    overflow-x: auto;
+    cursor: default;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: inset rgba(2, 4, 3, 0.2) 0px 2px 3px;
+    font-family: "Nova Square";
+}
+
+.evaluate-button {
+    color: #f5f5f5;
+    background: #00bdfe;
+}
+
+.marca {
+    font-style: italic;
+    font-weight: bold;
+    color: #777;
+}

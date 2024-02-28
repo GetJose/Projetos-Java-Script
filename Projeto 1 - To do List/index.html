@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onkeydown="enviar()">
+    <div class="models">
+        <div class="lista-item">
+            <button class="btn-check" onclick="feito()"><i class="bx bx-check"></i></button>
+            <div class="lista-item--content">Isso é um exemplo</div>
+            <button class="btn-remove" onclick="remover()"><i class="bx bx-trash"></i></button>
+        </div>
+    </div>
+
+    <main>
+        <span class="title">
+            <h1>To do List</h1>
+        </span>
+        <div class="lista-area">
+            <ul>
+
+                <li>
+                    <div class="lista-item active">
+                        <button class="btn-check active"><i class="bx bx-check"></i></button>
+                        <div class="lista-item--content">Fazer um To do List</div>
+                        <button class="btn-remove" onclick="remover()"><i class="bx bx-trash"></i></button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="tarefa-area">
+            <input type="text" id="tarefa" placeholder="escreva aqui a tarefa a ser feita">
+            <button class="btn-add" onclick="adicionar()"><i class="bx bx-plus"></i></button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

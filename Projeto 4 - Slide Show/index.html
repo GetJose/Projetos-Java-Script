@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slides</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="logo"> Aqui uma logo </div>
+        <div class="links">
+            <a href="#"> Home</a>
+            <a href="#"> Produtos</a>
+            <a href="#"> Serviços</a>
+            <a href="#"> Sobre</a>
+        </div>
+    </header>
+    <div class="slider-alerta">
+        <div class="slider-alerta--width">
+            <div class="slider--item" id="slide-alerta--1"><span>texto demonstrativo 1</span></div>
+            <div class="slider--item" id="slide-alerta--2"><span>texto demonstrativo 2</span></div>
+            <div class="slider--item" id="slide-alerta--3"><span>texto demonstrativo 3</span></div>
+            <div class="slider--item" id="slide-alerta--4"><span>texto demonstrativo 4</span></div>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1" class="">
+            <input type="radio" name="radio-btn" id="radio2" class="">
+            <input type="radio" name="radio-btn" id="radio3" class="">
+            <input type="radio" name="radio-btn" id="radio4" class="">
+
+            <div class="slide first">
+                <div class="image" style="background-color: aquamarine;width: 800px; height: 400px;"></div>
+            </div>
+            <div class="slide ">
+                <div class="image" style="background-color: orange;width: 800px; height: 400px;"></div>
+            </div>
+            <div class="slide ">
+                <div class="image" style="background-color: violet;width: 800px; height: 400px;"></div>
+            </div>
+            <div class="slide ">
+                <div class="image" style="background-color: tomato;width: 800px; height: 400px;"></div>
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

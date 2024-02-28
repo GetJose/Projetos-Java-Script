@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(105deg, #FFC514, #FF6400);
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+button{
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+}
+
+.title {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #FFC514;
+    background-color: #222;
+}
+
+.lista-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.lista-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: #222;
+    border: 1px solid #222;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 3px;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.lista-item.active {
+    text-decoration: line-through;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.lista-item:hover {
+    color: #FFC514;
+    background-color: #222;
+}
+
+.lista-item--content {
+    width: 80%;
+}
+
+.tarefa-area {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ECCB81;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tarefa-area input {
+    width: 80%;
+    max-width: 500px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.btn-add {
+    background-color: #f56422;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.btn-remove {
+    background-color: #EF0E0E;
+    color: #FFF;
+}
+
+.btn-check.active {
+    background-color: #229A00;
+    color: #FFF;
+}
+
+.models {
+    display: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+    width: 100%;
+    max-width: 500px;
+}

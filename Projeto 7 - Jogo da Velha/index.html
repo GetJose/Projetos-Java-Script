@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="frame center">
+        <div class="content">
+            <div class="campo" data-item="a1"></div>
+            <div class="campo l" data-item="a2"></div>
+            <div class="campo l" data-item="a3"></div>
+
+            <div class="campo t" data-item="b1"></div>
+            <div class="campo t l" data-item="b2"></div>
+            <div class="campo t l" data-item="b3"></div>
+
+            <div class="campo t" data-item="c1"></div>
+            <div class="campo t l" data-item="c2"></div>
+            <div class="campo t l" data-item="c3"></div>
+        </div>
+        <div class="status">
+            <h2> Click em um campo </h2>
+        </div>
+        <div class="reset" onclick="reset()">click aqui para reiniciar.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
