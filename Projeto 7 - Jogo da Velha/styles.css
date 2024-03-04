@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     background: linear-gradient(45deg, #f8ccd4, #ef6363);
-    height: 100vh
+    width: 100%;
+    height: 100vh;
 }
 
 .center {
@@ -100,4 +101,38 @@ body {
     height: 10px;
     transform: rotate(45deg);
     background-color: #da2100;
+}
+
+@media(max-width: 425px) {
+    .frame {
+        width: 320px;
+        height: 320px;
+    }
+    .campo {
+        width: 80px;
+        height: 80px;
+        font-size: 3rem;
+    }
+    .h::after {
+       
+        width: 120px;
+        height: 8px;
+    }
+    
+    .v::after {
+        width: 8px;
+        height: 120px;
+    }
+    
+    .dl::after {
+        width: 120px;
+        height: 8px;
+        transform: rotate(135deg);
+    }
+    
+    .dr::after {
+        width: 120px;
+        height: 8px;
+        transform: rotate(45deg);
+    }
 }
