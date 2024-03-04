@@ -173,3 +173,26 @@ body {
 }
 
 /* Aqui termina o css do slider alerta*/
+
+@media(max-width: 425px) {
+    .slider {
+        margin: 80px auto;
+        width: 300px;
+        height: 300px;
+      
+    }
+    
+    .slides {
+        width: 400%;
+        height: 300px;
+        display: flex;
+    }
+    
+    .manual-navigation {
+        position: absolute;
+        width: 300px;
+    }
+    .navigation-auto{
+        display: none;
+    }
+}
