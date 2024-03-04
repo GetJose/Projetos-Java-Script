@@ -21,6 +21,7 @@ function percentage() {
         let result = calculateAmount(display.value);
         let percentageResult = result * 0.01;
         display.value = percentageResult;
+        currentInput = result.toString();
     } catch (error) {
         display.value = "Error";
     }
@@ -30,6 +31,7 @@ function squareRoot() {
         let result = calculateAmount(display.value);
         let squareResult = Math.sqrt(result);
         display.value = squareResult;
+        currentInput = squareResult.toString();
     } catch (error) {
         display.value = "Error";
     }
@@ -39,7 +41,6 @@ function evaluateAmount() {
     try {
         let result = calculateAmount(currentInput);
         display.value = result;
-        currentInput = result.toString();
         //currentInput = "";
     } catch (error) {
         display.value = "Error";
