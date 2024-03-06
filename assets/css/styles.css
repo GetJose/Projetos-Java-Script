@@ -172,8 +172,9 @@ a {
 footer {
     background-color: #F0DB4F;
     height: 100%;
+    padding-bottom: 30px;
     max-height: 250px;
-    padding-top: 50px;
+    padding-top: 30px;
 }
 
 footer .banner .content {
@@ -183,6 +184,16 @@ footer .banner .content {
     margin-bottom: 0;
 }
 
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contato img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
 
 /* Responsividade*/
 @media(min-width:999px) and (max-width: 1200px) {
