@@ -146,6 +146,7 @@ function removeWinningLines() {
 }
 
 /*
+//ENCONTREI ESSA FUNÇÃO PELA NET, COMO NÃO ENTENDO 100% NÃO QUIS USAR
 function checkWinnerFor(player) {
     let pos = [
         'a1,a2,a3',
