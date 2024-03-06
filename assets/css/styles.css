@@ -169,10 +169,17 @@ a {
 
 footer {
     background-color: #F0DB4F;
-    height: 250px;
+    height: 100%;
+    max-height: 250px;
     padding-top: 50px;
 }
 
+footer .banner .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
 
 /* Responsividade*/
 @media(min-width:999px) and (max-width: 1200px) {
@@ -357,8 +364,14 @@ footer {
     .more-about .btn-r {
         padding: 7px;
     }
+    footer{
+        max-height: 350px;
+    }
     footer .banner .content{
         width: 80%;
+    }
+    footer .content {
+        flex-direction: column;
     }
 
 }
