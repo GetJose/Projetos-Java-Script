@@ -120,7 +120,7 @@ a {
     max-width: 550px;
 }
 
-.projeto.inverse-flex {
+.inverse-flex {
     flex-direction: row-reverse;
 }
 
