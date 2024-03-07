@@ -1,40 +1,42 @@
 window.onload = (event) => {
     const screenW = screen.width;
-    if (screenW > 768) {
+    if (screenW > 1000) {
         let body = document.querySelector('body');
-        
+
         let menuLateral = document.createElement('div');
         let menuLateralBtn = document.createElement('div');
+
         menuLateral.classList.add('menu-lateral');
         menuLateral.innerHTML =
             ` <div class="icon-menu">
-                <a href="../index.html"><img src="../assets/images/icons/botao-de-inicio.png" alt="Home"></a>
+                <a href="${basePath}index.html"><img src="${basePath}assets/images/icons/botao-de-inicio.png" alt="Home"></a>
             </div> 
             <div class="icon-menu">
-                <a href="../Projeto 1 - To do List/index.html"><img src="../assets/images/icons/lista-de-controle.png" alt="To-Do-List"></a>
+                <a href="${basePath}Projeto 1 - To do List/index.html"><img src="${basePath}assets/images/icons/lista-de-controle.png" alt="To-Do-List"></a>
             </div>
             <div class="icon-menu">
-                <a href="../Projeto 2 - Relógio Digital/index.html"><img src="../assets/images/icons/relogio-inteligente (1).png"
+                <a href="${basePath}Projeto 2 - Relógio Digital/index.html"><img src="${basePath}assets/images/icons/relogio-inteligente (1).png"
                         alt="Relogio-Digital"></a>
             </div>
             <div class="icon-menu">
-                <a href="../Projeto 3 - Relógio Analógico/index.html"><img src="../assets/images/icons/relogio.png" alt="Relogio-Analogico"></a>
+                <a href="${basePath}Projeto 3 - Relógio Analógico/index.html"><img src="${basePath}assets/images/icons/relogio.png" alt="Relogio-Analogico"></a>
             </div>
             <div class="icon-menu">
-                <a href="../Projeto 4 - Slide Show/index.html"><img src="../assets/images/icons/slides.png" alt="Slides"></a>
+                <a href="${basePath}Projeto 4 - Slide Show/index.html"><img src="${basePath}assets/images/icons/slides.png" alt="Slides"></a>
             </div>
             <div class="icon-menu">
-                <a href="../Projeto 5 - Acordeon/index.html"><img src="../assets/images/icons/acordeon.png" alt="Acordeon"></a>
+                <a href="${basePath}Projeto 5 - Acordeon/index.html"><img src="${basePath}assets/images/icons/acordeon.png" alt="Acordeon"></a>
             </div>
             <div class="icon-menu">
-                <a href="../Projeto 6 - Calculadora/index.html"><img src="../assets/images/icons/calculadora.png" alt="Calculadora"></a>
+                <a href="${basePath}Projeto 6 - Calculadora/index.html"><img src="${basePath}assets/images/icons/calculadora.png" alt="Calculadora"></a>
             </div>
             <div class="icon-menu">
-                <a href="../Projeto 7 - Jogo da Velha/index.html"><img src="../assets/images/icons/jogo-da-velha.png" alt="Jogo-Da-Velha"></a>
+                <a href="${basePath}Projeto 7 - Jogo da Velha/index.html"><img src="${basePath}assets/images/icons/jogo-da-velha.png" alt="Jogo-Da-Velha"></a>
             </div>`;
 
         menuLateralBtn.classList.add('menu-lateral-btn');
         menuLateralBtn.innerHTML = '<span> > </span>'
+
         body.appendChild(menuLateral);
         body.appendChild(menuLateralBtn);
 
